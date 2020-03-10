@@ -99,4 +99,16 @@ article.ejemplo5{
     margin: 10px;
 }
 
+/* EJEMPLO 6 */
 
+article.ejemplo6{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ejemplo6 div{
+    display: inline-flex;
+    width: 250px;
+    border: 2px black solid;
+    margin: 10px;
+}
