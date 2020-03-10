@@ -3,6 +3,8 @@ body{
     text-align: justify;
 }
 
+/* EJEMPLO 1 */
+
 article.ejemplo1{
     display: flex;
     flex-wrap: wrap;
@@ -14,6 +16,8 @@ article.ejemplo1{
     border: 2px solid black;
     padding: 5px;
 }
+
+/* EJEMPLO 2 */
 
 article.ejemplo2{
     display: flex; 
@@ -28,6 +32,8 @@ article.ejemplo2{
     padding: 5px;
 }
 
+/* EJEMPLO 3 */
+
 article.ejemplo3{
     display: flex; 
     flex-wrap: wrap;
@@ -40,6 +46,8 @@ article.ejemplo3{
     border: 2px solid black;
     padding: 5px;
 }
+
+/* EJEMPLO 4 */
 
 article.ejemplo4{
     display: flex;
@@ -59,6 +67,33 @@ article.ejemplo4{
 }
 
 .ejemplo4 div{
+    width: 200px;
+    border: 2px black solid;
+    margin: 10px;
+}
+
+/* EJEMPLO 5 */
+
+article.ejemplo5{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ejemplo5 h2{
+    background-color: #D3D3D3;
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 2px black solid;
+}
+
+.ejemplo5 p{
+    margin: 0;
+    padding: 5px;
+}
+
+.ejemplo5 div{
     width: 200px;
     border: 2px black solid;
     margin: 10px;
